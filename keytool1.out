@@ -1,0 +1,192 @@
+Certificate #0
+====================================
+所有者: CN=gradle.org, O="Cloudflare, Inc.", L=San Francisco, ST=CA, C=US
+发布者: CN=Cloudflare Inc ECC CA-3, O="Cloudflare, Inc.", C=US
+序列号: b68e11a96b8f5459ef6be181eb364b7
+有效期为 Sun Jul 05 08:00:00 CST 2020 至 Mon Jul 05 20:00:00 CST 2021
+证书指纹:
+	 MD5:  4B:BB:3F:63:A9:6A:53:2A:B0:15:01:7B:FF:4E:A7:92
+	 SHA1: 75:E7:95:3B:F1:F6:E7:41:23:09:59:C0:F9:78:F5:6B:7E:50:0B:EE
+	 SHA256: B9:9F:73:DF:EA:10:C6:53:BF:07:AA:88:FB:D9:11:92:0C:59:52:B9:01:05:FB:9A:89:07:34:07:9C:B8:17:B6
+签名算法名称: SHA256withECDSA
+主体公共密钥算法: 256 位 EC 密钥
+版本: 3
+
+扩展: 
+
+#1: ObjectId: 1.3.6.1.4.1.11129.2.4.2 Criticality=false
+0000: 04 81 F4 00 F2 00 77 00   F6 5C 94 2F D1 77 30 22  ......w..\./.w0"
+0010: 14 54 18 08 30 94 56 8E   E3 4D 13 19 33 BF DF 0C  .T..0.V..M..3...
+0020: 2F 20 0B CC 4E F1 64 E3   00 00 01 73 1E A3 73 93  / ..N.d....s..s.
+0030: 00 00 04 03 00 48 30 46   02 21 00 97 AC 5D 99 9B  .....H0F.!...]..
+0040: 55 DA 72 B7 68 B8 04 0D   F7 A9 4E F1 19 CA 47 05  U.r.h.....N...G.
+0050: 75 FB B2 F7 8C F9 70 A4   7A 20 52 02 21 00 81 DD  u.....p.z R.!...
+0060: 42 A1 CA C7 8B 26 52 80   62 22 A1 2C 90 B7 CC 89  B....&R.b".,....
+0070: A3 AB 1B AE 3A 80 2B 36   04 61 7B 2A 90 8D 00 77  ....:.+6.a.*...w
+0080: 00 5C DC 43 92 FE E6 AB   45 44 B1 5E 9A D4 56 E6  .\.C....ED.^..V.
+0090: 10 37 FB D5 FA 47 DC A1   73 94 B2 5E E6 F6 C7 0E  .7...G..s..^....
+00A0: CA 00 00 01 73 1E A3 73   C7 00 00 04 03 00 48 30  ....s..s......H0
+00B0: 46 02 21 00 D6 27 E1 9F   7B 05 2B CE 75 F8 99 E2  F.!..'....+.u...
+00C0: EC 04 66 7A D2 75 DF 68   71 9C 80 01 75 75 F9 95  ..fz.u.hq...uu..
+00D0: 60 C1 2D 6B 02 21 00 8C   8C 9A FC 4D 26 16 AD 3E  `.-k.!.....M&..>
+00E0: A1 62 83 84 10 AD 7C A3   F1 39 52 67 33 AE E9 59  .b.......9Rg3..Y
+00F0: 3D 41 17 32 53 01 3E                               =A.2S.>
+
+
+#2: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.digicert.com
+, 
+   accessMethod: caIssuers
+   accessLocation: URIName: http://cacerts.digicert.com/CloudflareIncECCCA-3.crt
+]
+]
+
+#3: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: A5 CE 37 EA EB B0 75 0E   94 67 88 B4 45 FA D9 24  ..7...u..g..E..$
+0010: 10 87 96 1F                                        ....
+]
+]
+
+#4: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+#5: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl3.digicert.com/CloudflareIncECCCA-3.crl]
+, DistributionPoint:
+     [URIName: http://crl4.digicert.com/CloudflareIncECCCA-3.crl]
+]]
+
+#6: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.16.840.1.114412.1.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 73 3A   2F 2F 77 77 77 2E 64 69  ..https://www.di
+0010: 67 69 63 65 72 74 2E 63   6F 6D 2F 43 50 53        gicert.com/CPS
+
+]]  ]
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[]  ]
+]
+
+#7: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+#8: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+]
+
+#9: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: gradle.org
+  DNSName: *.gradle.org
+]
+
+#10: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 44 80 3A FA 00 84 38 D1   BD 20 F2 AB 55 7D FD 0C  D.:...8.. ..U...
+0010: BB 2B F8 50                                        .+.P
+]
+]
+
+
+Certificate #1
+====================================
+所有者: CN=Cloudflare Inc ECC CA-3, O="Cloudflare, Inc.", C=US
+发布者: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+序列号: a3787645e5fb48c224efd1bed140c3c
+有效期为 Mon Jan 27 20:48:08 CST 2020 至 Wed Jan 01 07:59:59 CST 2025
+证书指纹:
+	 MD5:  34:16:CA:75:15:17:B8:39:1C:D7:59:FA:BB:8E:C9:19
+	 SHA1: B3:DD:76:06:D2:B5:A8:B4:A1:37:71:DB:EC:C9:EE:1C:EC:AF:A3:8A
+	 SHA256: 3A:BB:E6:3D:AF:75:6C:50:16:B6:B8:5F:52:01:5F:D8:E8:AC:BE:27:7C:50:87:B1:27:A6:05:63:A8:41:ED:8A
+签名算法名称: SHA256withRSA
+主体公共密钥算法: 256 位 EC 密钥
+版本: 3
+
+扩展: 
+
+#1: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.digicert.com
+]
+]
+
+#2: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: E5 9D 59 30 82 47 58 CC   AC FA 08 54 36 86 7B 3A  ..Y0.GX....T6..:
+0010: B5 04 4D F0                                        ..M.
+]
+]
+
+#3: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:0
+]
+
+#4: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl3.digicert.com/Omniroot2025.crl]
+]]
+
+#5: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.16.840.1.114412.1.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 73 3A   2F 2F 77 77 77 2E 64 69  ..https://www.di
+0010: 67 69 63 65 72 74 2E 63   6F 6D 2F 43 50 53        gicert.com/CPS
+
+]]  ]
+  [CertificatePolicyId: [2.16.840.1.114412.1.2]
+[]  ]
+  [CertificatePolicyId: [2.23.140.1.2.1]
+[]  ]
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[]  ]
+  [CertificatePolicyId: [2.23.140.1.2.3]
+[]  ]
+]
+
+#6: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+#7: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+#8: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: A5 CE 37 EA EB B0 75 0E   94 67 88 B4 45 FA D9 24  ..7...u..g..E..$
+0010: 10 87 96 1F                                        ....
+]
+]
+
+
